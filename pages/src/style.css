@@ -1,0 +1,64 @@
+
+#navbar {
+    background-color: #f7f5f5;
+    box-shadow: 2px 0px 8px rgba(112, 109, 109, 0.3);
+  }
+
+  .navbar-brand {
+    font-family:'Archivo', sans-serif;
+    font-size: 32px;
+  }
+
+nav#dot-nav {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+nav#dot-nav a {
+  border: 1px solid #121212;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: block;
+  margin: 10px;
+}
+
+nav#dot-nav a.active, nav#dot-nav a:first-child {
+  background: #121212;
+}
+
+  .about{
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+    background-color:#E6F4F1;
+  }
+
+  .core-values{
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+    background-color:#beb3d1;
+
+  }
+
+  .resources{
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+    background-color:rgb(222, 178, 151,0.8) ;
+
+  }
+
+  footer{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f5f5;
+    box-shadow: 2px 0px 8px rgba(112, 109, 109, 0.3);
+  }

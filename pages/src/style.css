@@ -1,13 +1,19 @@
 
 #navbar {
+    display: block;
     background-color: #f7f5f5;
     box-shadow: 2px 0px 8px rgba(112, 109, 109, 0.3);
   }
 
-  .navbar-brand {
+.navbar-brand {
     font-family:'Archivo', sans-serif;
     font-size: 32px;
   }
+
+h1 {
+  position: relative;
+  top: 30px;
+}
 
 nav#dot-nav {
   position: fixed;
@@ -31,7 +37,7 @@ nav#dot-nav a.active, nav#dot-nav a:first-child {
   .about{
     display: block;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 500px;
     text-align: center;
     background-color:#E6F4F1;
   }
@@ -40,10 +46,19 @@ nav#dot-nav a.active, nav#dot-nav a:first-child {
   .core-values{
     display: block;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 900px;
     text-align: center;
     background-color:#beb3d1;  
 
+  }
+
+  .card {
+    padding: 60px 0px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: 300;
   }
 
   .values{
@@ -57,7 +72,7 @@ nav#dot-nav a.active, nav#dot-nav a:first-child {
   .resources{
     display: block;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 500px;
     text-align: center;
     background-color:rgb(222, 178, 151,0.8) ;
 

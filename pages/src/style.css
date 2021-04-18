@@ -4,72 +4,118 @@
     background-color: #f7f5f5;
     box-shadow: 2px 0px 8px rgba(112, 109, 109, 0.3);
   }
-
-.navbar-brand {
+  .navbar-brand {
     font-family:'Archivo', sans-serif;
     font-size: 32px;
   }
-
-h1 {
-  position: relative;
-  top: 30px;
+h2 {
+display: block;
+padding: 20px;
 }
 
-nav#dot-nav {
+    nav#dot-nav {
   position: fixed;
   right: 20px;
   top: 20px;
 }
 
-nav#dot-nav a {
+    nav#dot-nav a {
   border: 1px solid #121212;
   border-radius: 50%;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   display: block;
   margin: 10px;
 }
 
-nav#dot-nav a.active, nav#dot-nav a:first-child {
+    nav#dot-nav a.active, nav#dot-nav a:first-child {
   background: #121212;
 }
 
-  .about{
+.about{
     display: block;
     margin: 0 auto;
     min-height: 500px;
     text-align: center;
     background-color:#E6F4F1;
   }
-
-
-  .core-values{
+.core-values{
     display: block;
+    padding: 20px 10px;
     margin: 0 auto;
-    min-height: 900px;
+    min-height: 120vh;
     text-align: center;
-    background-color:#beb3d1;  
+    background-color:#ffff;  
+  }
+  .core-value-cards {
+    font-size: 34px;
+    font-weight: 600;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 200px 50px;
+    transition: font-size, 500ms;
+  }
+  .core-value-cards:hover{
+    font-size: 38px; 
+  }
+ #apokatalasso {
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/transformation.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000;
+ }
 
+  #growth {
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/growth.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffff;
   }
 
-  .card {
-    padding: 60px 0px;
+  #network {
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/network.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffff;
   }
 
-  .card-title {
-    font-size: 18px;
-    font-weight: 300;
+  #ontology {
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/ontology.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffff;
   }
 
-  .values{
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    padding: 100px 0px;
-
+  #transformation {
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/transformation.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
   }
 
-  .resources{
+  #mission {
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/movement.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffff;
+  }
+
+  #apostolic {
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/apostolic.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+  }
+
+  #movement {
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/movement.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color:#ffff;
+  }
+
+.resources{
     display: block;
     margin: 0 auto;
     min-height: 500px;
@@ -78,7 +124,7 @@ nav#dot-nav a.active, nav#dot-nav a:first-child {
 
   }
 
-  footer{
+footer{
     display: block;
     margin: 0 auto;
     padding: 20px;
@@ -86,3 +132,64 @@ nav#dot-nav a.active, nav#dot-nav a:first-child {
     background-color: #f7f5f5;
     box-shadow: 2px 0px 8px rgba(112, 109, 109, 0.3);
   }
+
+#teaching-unit-container{
+  display: block;
+  margin: 0 auto;
+  padding: 30px 20px;
+  max-width: 1200px;
+}
+
+.teaching-library {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.teaching-unit {
+  text-align: center;
+  display: block;
+  padding: 70px;
+  margin: 10px;
+  border: 1px solid rgb(216, 215, 215);
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgb(0,0,0,0.1);
+}
+.teaching-unit-links{
+  display:block;
+  margin: 0 auto;
+  text-align:center;
+  font-size: 12px;
+  font-weight: 300;
+
+}
+
+#unit-1 {
+  background-color: #7ec6d34f;
+}
+#unit-1:hover{
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff;
+}
+#unit-2 {
+  background-color: #95b0b588;
+}
+#unit-3 {
+  background-color: #ffe9d094;
+}
+#unit-4 {
+  background-color: #8784b479;
+}
+#unit-5 {
+  background-color: #a7f7e644;
+}
+#unit-6 {
+  background-color: #c3b4deb0;
+}
+#unit-7 {
+  background-color: #d9f0e9a1;
+}
+#unit-8 {
+  background-color: #bba3958a;
+}

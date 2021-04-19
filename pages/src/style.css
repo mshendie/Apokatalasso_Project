@@ -132,7 +132,14 @@ footer{
     background-color: #f7f5f5;
     box-shadow: 2px 0px 8px rgba(112, 109, 109, 0.3);
   }
+/* teaching library */
 
+#home-icon{
+  padding:15px;
+  margin: 5px;
+  font-size: 25px;
+  color:rgba(112, 109, 109)
+}
 #teaching-unit-container{
   display: block;
   margin: 0 auto;
@@ -160,10 +167,12 @@ footer{
   margin: 0 auto;
   text-align:center;
   font-size: 12px;
-  font-weight: 300;
-
+  font-weight: 400;
 }
-
+.teaching-unit-links p {
+  padding: 2px;
+  margin: 0 auto;
+}
 #unit-1 {
   background-color: #7ec6d34f;
 }

@@ -154,13 +154,15 @@ footer{
 }
 
 .teaching-unit {
-  text-align: center;
   display: block;
-  padding: 70px;
+  text-align: center;
+  overflow:hidden;
+  font-size: 16px;
+  padding: 60px;
   margin: 10px;
-  border: 1px solid rgb(216, 215, 215);
+  border: 1px solid rgb(216, 215, 215, 0.6);
   border-radius: 5px;
-  box-shadow: 0px 1px 3px rgb(0,0,0,0.1);
+  box-shadow: 0px 2px 3px rgb(0,0,0,0.1);
 }
 .teaching-unit-links{
   display:block;

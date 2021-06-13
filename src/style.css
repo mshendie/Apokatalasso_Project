@@ -87,10 +87,6 @@ padding: 20px;
     padding: 200px 50px;
     transition: font-size, 500ms;
   }
-  .core-value-cards:hover{
-    display: block;
-    font-size: 36px; 
-  }
   .core-value-cards:active{
     border: 1px solid #e0dddd;
   }

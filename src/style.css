@@ -78,6 +78,7 @@ padding: 20px;
     background-color:#ffff;  
   }
   .core-value-cards {
+    display: block;
     font-size: 34px;
     font-weight: 600;
     margin: 0;
@@ -87,17 +88,25 @@ padding: 20px;
     transition: font-size, 500ms;
   }
   .core-value-cards:hover{
-    font-size: 38px; 
+    display: block;
+    font-size: 36px; 
   }
   .core-value-cards:active{
     border: 1px solid #e0dddd;
   }
  #apokatalasso {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/transformation.jpg");
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/apostolic.jpg");
     background-attachment: fixed;
     background-size: cover;
-    color: #000;
+    color: #ffff;
  }
+
+ #apostolic {
+    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/apostolic.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color:#ffff;
+  }
 
   #growth {
     background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/growth.jpg");
@@ -124,7 +133,8 @@ padding: 20px;
     background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/transformation.jpg");
     background-attachment: fixed;
     background-size: cover;
-    color: black;
+    background-position-y: 10px;
+    color: #ffff;
   }
 
   #mission {
@@ -132,13 +142,6 @@ padding: 20px;
     background-size: cover;
     background-attachment: fixed;
     color: #ffff;
-  }
-
-  #apostolic {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/apostolic.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    color:black;
   }
 
   #movement {

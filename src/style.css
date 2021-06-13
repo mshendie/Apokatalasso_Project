@@ -227,7 +227,8 @@ section p {
   margin: 0 auto;
 }
 #unit-1 {
-  background-color: #7ec6d34f;
+  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/mission mandate.jpg");
+  background-size: 150%;
 }
 #unit-1:hover{
   transition-timing-function:linear;
@@ -235,23 +236,33 @@ section p {
   background-color: #fff;
 }
 #unit-2 {
-  background-color: #95b0b588;
+  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/mission mandate.jpg");
+  background-size: 210%;
+
 }
 #unit-3 {
-  background-color: #ffe9d094;
+  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/mission mandate.jpg");
+  background-size: 100%;;
 }
 #unit-4 {
-  background-color: #8784b479;
+  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/mission mandate.jpg");
+  background-size: 210%;
+  background-position: bottom;
 }
 #unit-5 {
-  background-color: #a7f7e644;
+  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/mission mandate.jpg");
+  background-size: 100%;;
 }
 #unit-6 {
-  background-color: #c3b4deb0;
+  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/mission mandate.jpg");
+  background-size: 250%;;
 }
 #unit-7 {
-  background-color: #d9f0e9a1;
+  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/mission mandate.jpg");
+  background-size: 130%;
+  background-position: bottom;
 }
 #unit-8 {
-  background-color: #bba3958a;
+  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/mission mandate.jpg");
+  background-size: 180%;;
 }

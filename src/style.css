@@ -1,3 +1,4 @@
+/* homepage */ 
 
 #navbar {
     background-color: #fdfbfb;
@@ -67,6 +68,17 @@ padding: 20px;
     text-align: center;
     color: rgb(213, 217, 223);
     letter-spacing: 11px;
+  }
+
+  .intro-para {
+    display:block;
+    padding: 25px;
+    margin: 0 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(213, 217, 223);
   }
 
 .core-values{
@@ -213,26 +225,33 @@ h1 {
 #teaching-unit-container{
   display: block;
   margin: 0 auto;
-  padding: 30px 20px;
-  max-width: 1200px;
+  padding: 60px 60px;
+  max-width: 1400px;
 }
 
 .teaching-library {
   text-align: center;
   padding: 20px;
-  margin: 0 auto;
 }
-
+.teaching-library p {
+  text-align: center;
+  padding: 10px;
+  margin: 0 80px;
+  font-size: 16px;
+}
 .teaching-unit {
   display: block;
   text-align: center;
-  overflow:hidden;
-  font-size: 16px;
   padding: 60px;
   margin: 10px;
   border: 1px solid rgb(216, 215, 215, 0.6);
   border-radius: 5px;
   box-shadow: 0px 2px 3px rgb(0,0,0,0.1);
+}
+.teaching-unit h3 {
+  text-align: center;
+  font-size: 2vw;
+  overflow-wrap:break-word;
 }
 .teaching-unit-links{
   display:block;

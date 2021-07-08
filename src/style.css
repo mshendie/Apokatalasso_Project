@@ -177,7 +177,9 @@ padding: 20px;
 
 .resources a {
   font-size: 20px;
-  padding: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px 2px lightgray;
+  width: 500px;
 }
 
 .resources a:hover{
@@ -208,7 +210,6 @@ h1 {
 .about-section {
   background-color: #95B0B5;
   color: white;
-  display: block;
   padding: 30px;
 }
 .about-section h3 {
@@ -228,8 +229,6 @@ h1 {
   color: black;
   transition: all 500ms ease-in-out;
 }
-
-
 
   /* teaching library */
 
@@ -310,4 +309,50 @@ h1 {
 }
 #unit-8 {
   background: #DEB297;
+}
+
+/* contact us */
+
+.contact-form {
+  max-width: 500px;
+  text-align: center;
+  padding: 30px;
+}
+
+.contact-form ul {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+}
+.contact-form li {
+  padding: 5px;
+}
+.contact-form input {
+  width: 400px;
+  height: 30px;
+  font: 14px sans-serif;
+  box-sizing: border-box;
+  border: 1px solid rgb(199, 199, 199);
+}
+.contact-form textarea {
+  width: 400px;
+  height:150px;
+  font: 14px sans-serif;
+  border: 1px solid rgb(199, 199, 199);
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+.contact-form button {
+  padding: 5px;
+  width: 120px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: #ffff;
+  color: black;
+  box-shadow:0px 1px 1px #cacaca;
+}
+.contact-form button:active {
+  background-color:#95B0B5;
 }

@@ -37,7 +37,7 @@ padding: 20px;
     min-height: 150vh;
     text-align: center;
     background-color:#E6F4F1;
-    background-image: URL("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/homepage.jpg");
+    background-image: URL("https://apokatalasso.s3.eu-central-1.amazonaws.com/homepage.jpg");
     background-attachment: fixed;
     background-size: cover;
   }

@@ -1,5 +1,3 @@
-/* homepage */ 
-
 #navbar {
     background-color: #fdfbfb;
     box-shadow: 2px 0px 8px rgba(112, 109, 109, 0.3);
@@ -29,7 +27,7 @@ padding: 20px;
   margin: 10px;
 }
 
-    nav#dot-nav a.active, nav#dot-nav a:first-child {
+   nav#dot-nav a.active, nav#dot-nav a:first-child {
   background: #121212;
 }
 

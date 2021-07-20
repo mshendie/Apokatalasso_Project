@@ -166,6 +166,7 @@ padding: 20px;
     background-color:#ffffff ;
     color: rgb(0, 0, 0);
     text-shadow: 1px, 0px, 2px, grey;
+    min-height: 80vh;
   }
 
 .resources p {
@@ -176,16 +177,18 @@ padding: 20px;
 }
 
 .resources a {
-  font-size: 20px;
-  padding: 10px;
-  box-shadow: 1px 1px 2px lightgray;
-  width: 500px;
+  font-size: 18px;
+  padding: 15px;
+  box-shadow: 2px 1px 2px lightgray;
+  border-radius: 50px 50px;
+  width: 600px;
+  background-color: #324B4F;
+  color: white;
 }
 
 .resources a:hover{
- background-color: #324B4F;
- border: #324B4F;
- 
+ background-color: #223235;
+ transition-duration: 1s;
 }
 
 footer{
@@ -210,18 +213,19 @@ h1 {
 .about-section {
   background-color: #95B0B5;
   color: white;
-  padding: 30px;
+  padding: 40px;
 }
 .about-section h3 {
   text-align: center;
   font-weight: 500;
-  padding: 15px;
+  padding: 28px;
   text-shadow: 1px 0px 1px rgb(128, 128, 128, 0.2) ;
 }
 .about-section p {
   text-align: justify;
   font-weight: 400;
   line-height: 30px;
+  font-size: 22px;
 }
 
 .about-section:hover {

@@ -17,8 +17,9 @@ window.addEventListener("load", function(){
 
 
 function submitForm () {
-    let submissionResponse = document.getElementById("submission-response");
-    submissionResponse.innerHTML = `Merci de nous avoir contacté ! Nous reviendrons prochainement vers vous.`
+    let submissionButton = document.getElementById("contact-form-submit");
+    submissionButton.innerHTML = 'Envoyé'
+    alert(`Merci de nous avoir contacté ! Nous reviendrons prochainement vers vous.`)
 }
 
 let contactFormSubmit = document.getElementById("contact-form-submit");

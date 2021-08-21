@@ -43,31 +43,26 @@
   </h1> 
   <section>
   <form action="" method="POST" class="contact-form">
-    <h4>
-      Contactez-Nous
-    </h4>
+    <h2>
+      Envoyez-nous un message
+    </h2>
     <ul>
-      <li>
-        <input type="text" placeholder="Nom" name="name">
-      </li>
-      <li>
-        <input type="mail" placeholder="Email" name="email">
-      </li>
-      <li>
-        <input type="text" placeholder="Région" name="location">
-      </li>
-      <li>
-        <textarea name="user-message" placeholder="Message" name="message"></textarea> 
-      </li>
-      <button type="button" id="contact-form-submit"> Envoyez </button>
+      <label for="nom"> Nom </label>
+      <li> <input type="text" name="name"> </li>
+      <label for="mail"> E-mail </label>
+      <li> <input type="mail" name="email"> </li>
+      <label for="location"> Location </label>
+      <li> <input type="text" name="location"> </li>
+      <label for="message"> Message </label>
+      <li> <textarea name="user-message" name="message"></textarea> </li>
+      <button type="button" id="contact-form-submit"> Envoyer </button>
     </ul> 
   </form>
-  <p id="submission-response"></p>
   </section>
   <section class="subscribe">
-    <h4>
+    <h2>
       Abonnez-Vous
-    </h4>
+    </h2>
     <form action="">
       <label for="Subscription">
         E-mail

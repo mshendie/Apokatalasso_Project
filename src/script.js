@@ -19,6 +19,8 @@ window.addEventListener("load", function(){
 function submitForm () {
     let submissionButton = document.getElementById("contact-form-submit");
     submissionButton.innerHTML = 'Envoyé'
+    submissionButton.style.background = "#bb8b6e";
+    submissionButton.style.color = "#fff";
     alert(`Merci de nous avoir contacté ! Nous reviendrons prochainement vers vous.`)
 }
 

@@ -328,6 +328,10 @@ h1 {
 
 /* contact us */
 
+h2 {
+padding: 40px;
+}
+
 .contact-form {
   display: block;
   margin: 0 auto;
@@ -392,6 +396,7 @@ h1 {
   margin: 0 auto;
   text-align: center;
   margin: 30px;
+  height: 50vh;
 }
 
 .subscribe-form p {
@@ -440,3 +445,49 @@ h1 {
   color: white;
 }
 
+.donate {
+  display: block;
+  text-align: center;
+  background-color: #f8f8f7;
+  height: 60vh;
+}
+
+#paypal-button {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow:2px 2px 1px #2c2f3d;
+  background-color: #0C3685;
+  color: white;
+}
+
+#transferwise-button {
+  display: inline-block;
+  margin: 15px;
+  padding: 4px;
+  width: 250px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow:2px 2px 1px #9e9d9d;
+  background-color: #fff;
+}
+
+#bank-button {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  font-size: 16px;
+  box-shadow:2px 2px 1px #727272;
+  background-color:rgb(145, 143, 143);
+  color: white;
+}

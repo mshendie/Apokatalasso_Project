@@ -16,7 +16,7 @@ window.addEventListener("load", function(){
 });
 
 
-function submitForm () {
+function contactForm () {
     let submissionButton = document.getElementById("contact-form-submit");
     submissionButton.innerHTML = 'Envoyé'
     submissionButton.style.background = "#bb8b6e";
@@ -25,4 +25,14 @@ function submitForm () {
 }
 
 let contactFormSubmit = document.getElementById("contact-form-submit");
-contactFormSubmit.addEventListener("click", submitForm); 
+contactFormSubmit.addEventListener("click", contactForm); 
+
+function susbcribeForm () {
+    let subscribeButton = document.getElementById("subscribe-form-submit");
+    subscribeButton.innerHTML = "Abonné";
+    subscribeButton.style.background = "#000000";
+    subscribeButton.style.color = "#fff";
+}
+
+let subscribeButton = document.getElementById("subscribe-form-submit");
+subscribeButton.addEventListener("click", susbcribeForm); 

@@ -332,7 +332,7 @@ h1 {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
   background-color: #DEB297;
 }
 
@@ -364,9 +364,6 @@ h1 {
   color: #000000;
   box-shadow:1px 2px 1px #9e9d9d;
 }
-input:focus, textarea:focus {
-    border-color: #000;
-}
 .contact-form button {
   display: block;
   margin: 15px auto;
@@ -377,29 +374,69 @@ input:focus, textarea:focus {
   font-size: 16px;
   font-weight: 600;
   background-color: #ffff;
-  color: black;
+  color: #000000;
   box-shadow:1px 2px 1px #9e9d9d;
 }
-
 .contact-form button:hover {
   background-color:#bb8b6e;
   color: white;
   transition: ease-in-out 100ms;
 }
-
 .contact-form button:active {
   background-color:#bb8b6e;
   color: white;
 }
 
-
-
-#submission-response {
-  display: inline-flex;
-  position: relative;
-  bottom: 40px;
-  left: 40px;
-  font-size: 14px;
-  font-style: italic;
-  color: gray;
+.subscribe-form {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin: 30px;
 }
+
+.subscribe-form p {
+  font-size: 18px;
+}
+
+.subscribe-form label {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px;
+}
+.subscribe-form input {
+  margin: 20px auto;
+  width: 500px;
+  height: 40px;
+  font: 16px sans-serif;
+  padding: 22px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  box-shadow:0px 1px 1px #9e9d9d;
+  border-radius: 50px;
+}
+
+.subscribe-form button {
+  display: inline;
+  margin: 0px 10px;
+  padding: 10px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ffff;
+  color: black;
+  box-shadow:0px 1px 1px #9e9d9d;
+}
+
+.subscribe-form button:hover {
+  background-color:#000000;
+  color: white;
+  transition: ease-in-out 100ms;
+}
+
+.subscribe-form button:active {
+  background-color:#000000;
+  color: white;
+}
+

@@ -79,7 +79,7 @@ padding: 20px;
     color: rgb(213, 217, 223);
   }
 
-.core-values{
+  .core-values{
     display: block;
     padding: 30px 10px;
     margin: 0 auto;
@@ -332,7 +332,48 @@ h1 {
   background-size: cover; 
   background-repeat: no-repeat;
   background-position-y: 25%;
+  height: 50vh;
 }
+.resources-library h2 {
+  color: white;
+  font-size: 35px;
+}
+.resources-library p {
+  display: block;
+  margin: 0 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 300px;
+}
+.resources-library a {
+  padding: 10px;
+  width: 300px;
+  margin: 30px;
+  border-radius: 50px 50px;
+}
+
+#resources-container {
+  padding:15px;
+}
+.publications {
+  margin: 15px auto;
+  background-color: #ECFCFF;
+}
+.publications:hover {
+  background-color: #fff;
+  transition: ease-in-out 200ms;
+}
+.blog {
+  margin: 15px auto;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+ iframe {
+   width: 80%;
+ }
+
 
 /* contact us */
 
@@ -423,8 +464,8 @@ padding: 40px;
   font: 16px sans-serif;
   padding: 22px;
   box-sizing: border-box;
-  border: 1px solid black;
-  box-shadow:0px 1px 1px #9e9d9d;
+  border: 1px solid transparent;
+  box-shadow:1px 2px 1px #9e9d9d;
   border-radius: 50px;
 }
 
@@ -433,13 +474,13 @@ padding: 40px;
   margin: 0px 10px;
   padding: 10px;
   width: 120px;
-  border: 1px solid black;
+  border: 1px solid transparent;
   border-radius: 25px;
   font-size: 16px;
   font-weight: 600;
   background-color: #ffff;
   color: black;
-  box-shadow:0px 1px 1px #9e9d9d;
+  box-shadow:1px 2px 1px #9e9d9d;
 }
 
 .subscribe-form button:hover {

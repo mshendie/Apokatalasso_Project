@@ -131,7 +131,6 @@ padding: 20px;
   #ontology {
     background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/ontology.jpg");
     background-attachment: fixed;
-    background-size: cover;
     color: #ffff;
     background-size: 75%;
   }
@@ -324,6 +323,15 @@ h1 {
 }
 #unit-8 {
   background: #DEB297;
+}
+
+/* resources */
+
+.resources-library {
+  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/bible.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position-y: 25%;
 }
 
 /* contact us */

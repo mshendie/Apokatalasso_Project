@@ -60,12 +60,13 @@ padding: 20px;
     position: relative;
     top: 200px;
     padding: 25px;
-    margin: 0 auto;
-    font-size: 25px;
+    margin: 0 80px;
+    line-height: 50px;
+    font-size: 28px;
     font-weight: 400;
     text-align: center;
     color: rgb(213, 217, 223);
-    letter-spacing: 11px;
+    letter-spacing: 10px;
   }
 
   .intro-para {
@@ -169,6 +170,7 @@ padding: 20px;
   }
 
 .resources p {
+  margin: 0 80px;
   text-align: center;
   font-size: 18px;
   font-weight: 300;
@@ -357,6 +359,7 @@ h1 {
   padding:15px;
 }
 .publications {
+  text-align: center;
   margin: 15px auto;
   background-color: #ECFCFF;
 }
@@ -365,6 +368,7 @@ h1 {
   transition: ease-in-out 200ms;
 }
 .blog {
+  text-align: center;
   margin: 15px auto;
   position: relative;
   overflow: hidden;
@@ -374,6 +378,21 @@ h1 {
    width: 80%;
  }
 
+/* network */
+
+.network-section {
+  text-align: center;
+  margin: 10px;
+  background-color: #324B4F;
+  color:white;
+  padding: 50px;
+}
+
+.network-section:hover {
+  background-color:white;
+  color:black;
+  transition: all 500ms ease-in-out;
+}
 
 /* contact us */
 

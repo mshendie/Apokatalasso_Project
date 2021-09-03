@@ -36,3 +36,4 @@ function susbcribeForm () {
 
 let subscribeButton = document.getElementById("subscribe-form-submit");
 subscribeButton.addEventListener("click", susbcribeForm); 
+

@@ -361,7 +361,6 @@ h1 {
 .publications {
   text-align: center;
   margin: 15px auto;
-  background-color: #ECFCFF;
 }
 .publications:hover {
   background-color: #fff;
@@ -376,6 +375,27 @@ h1 {
 }
  iframe {
    width: 80%;
+ }
+
+ #book1 {
+   display: block;
+   margin: 30px auto;
+   width: 80%;
+ }
+  #book2 {
+   display: block;
+   margin: 30px auto;
+   width: 80%;
+ }
+ .list-group-item:hover{
+   background-color: #CCCCCC;
+   transition: ease-in-out 300ms;
+   border: solid 0.5px lightgray;
+ }
+ .list-group-item:visited{
+   background-color: #CCCCCC;
+   transition: ease-in-out 300ms;
+   border: solid 0.5px lightgray;
  }
 
 /* network */

@@ -3,8 +3,10 @@
     box-shadow: 2px 0px 8px rgba(112, 109, 109, 0.3);
   }
   .navbar-brand {
-    font-family:'Archivo', sans-serif;
-    font-size: 32px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 28px;
   }
 
 h2 {
@@ -37,22 +39,23 @@ padding: 20px;
     min-height: 150vh;
     text-align: center;
     background-color:#E6F4F1;
-    background-image: URL("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/homepage.jpg");
+    background-image: URL("images/homepage.jpg");
     background-attachment: fixed;
     background-size: cover;
   }
   .about h1 {
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 400;
     display: block;
     position: relative;
     top: 230px;
     padding: 25px;
     margin: 0 auto;
     font-size: 80px;
-    font-weight: 500;
     text-align: center;
     color: rgb(243, 240, 240);
     text-shadow: 0px 1px 2px  rgb(92, 91, 91);
-    letter-spacing: 7px;
+    letter-spacing: 8px;
   }
 
   .about h2 {
@@ -102,42 +105,42 @@ padding: 20px;
     border: 1px solid #e0dddd;
   }
  #apokatalasso {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/apostolic.jpg");
+    background-image: url("images/apostolic.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: #ffff;
  }
 
  #apostolic {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/apostolic.jpg");
+    background-image: url("images/apostolic.jpg");
     background-attachment: fixed;
     background-size: cover;
     color:#ffff;
   }
 
   #growth {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/growth.jpg");
+    background-image: url("images/growth.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: #ffff;
   }
 
   #network {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/network.jpg");
+    background-image: url("images/network.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: #ffff;
   }
 
   #ontology {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/ontology.jpg");
+    background-image: url("images/ontology.jpg");
     background-attachment: fixed;
     color: #ffff;
     background-size: 75%;
   }
 
   #transformation {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/transformation.jpg");
+    background-image: url("images/transformation.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position-y: 10px;
@@ -145,14 +148,14 @@ padding: 20px;
   }
 
   #mission {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/movement.jpg");
+    background-image: url("images/movement.jpg");
     background-size: cover;
     background-attachment: fixed;
     color: #ffff;
   }
 
   #movement {
-    background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/movement.jpg");
+    background-image: url("images/movement.jpg");
     background-attachment: fixed;
     background-size: cover;
     color:#ffff;
@@ -330,7 +333,7 @@ h1 {
 /* resources */
 
 .resources-library {
-  background-image: url("/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/bible.jpg");
+  background-image: url("images/bible.jpg");
   background-size: cover; 
   background-repeat: no-repeat;
   background-position-y: 25%;

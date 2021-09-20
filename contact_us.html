@@ -11,6 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/dot-nav-master/dot-nav-min.js"></script>
   <link href="src/style.css" rel="stylesheet"/>
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-nav-scroll">
@@ -62,26 +63,31 @@
     </ul> 
   </form>
   </section>
-  <section class="subscribe">
-    <form action="" method="POST" class="subscribe-form">
-    <h2>
-      Abonnez-vous
-    </h2>
-    <p> 
-      Souhaitez-vous recevoir nos nouvelles de façon régulière et restez à jour sur les enseignements ? Abonnez-vous ici :
-    </p>
-      <label for="mail"> E-mail </label>
-      <input type="mail" name="email"> 
-      <button type="button" id="subscribe-form-submit"> S'abonner </button>     
+  
+  <section class="subscribe">    
+  <!-- Begin Mailchimp Signup Form -->
+  <div id="mc_embed_signup">
+  <form action="https://apokatalasso.us10.list-manage.com/subscribe/post?u=56d6d81e10d7e9f1157ae2ba3&amp;id=6b8652924b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <h2> Abonnez-vous </h2>
+  <p> Souhaitez-vous recevoir nos nouvelles de façon régulière et restez à jour sur les enseignements ? Abonnez-vous ici : </p>    
+  <div id="mc_embed_signup_scroll">
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail" required>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_56d6d81e10d7e9f1157ae2ba3_6b8652924b" tabindex="-1" value=""></div>
+      <div class="clear"> <input type="submit" value="S'abonner" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+  </div>
+  </form>
+  </div>
+  <!--End mc_embed_signup-->
+
+
+           
   </form>
   </section>
   <section id="donate">
     <h2>
       Faire un don
-    </h2>
-    <p>
-      [add Explanation here]
-    </p>     
+    </h2>    
     <a href="https://www.paypal.com" target="_blank" type="button" id="paypal-button"> <i class="fab fa-paypal"></i> PayPal </a>
     <a href="https://www.wise.com" target="_blank" type="button" id="transferwise-button"> <img src="/Users/meganhenderson/Documents/Apokatalasso Project/GitHub/Apokatalasso-Project/images/transferwise_logo_icon_170419.png" style="width: 50%;height: 50%;"/></a>
     <button type="button" id="bank-button"> Virement Bancaire </button>     

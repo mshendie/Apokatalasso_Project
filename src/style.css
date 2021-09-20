@@ -39,7 +39,7 @@ padding: 20px;
     min-height: 150vh;
     text-align: center;
     background-color:#E6F4F1;
-    background-image: URL("images/homepage.jpg");
+    background-image: URL("../images/homepage.jpg");
     background-attachment: fixed;
     background-size: cover;
   }
@@ -105,42 +105,42 @@ padding: 20px;
     border: 1px solid #e0dddd;
   }
  #apokatalasso {
-    background-image: url("images/apostolic.jpg");
+    background-image: url("../images/apostolic.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: #ffff;
  }
 
  #apostolic {
-    background-image: url("images/apostolic.jpg");
+    background-image: url("../images/apostolic.jpg");
     background-attachment: fixed;
     background-size: cover;
     color:#ffff;
   }
 
   #growth {
-    background-image: url("images/growth.jpg");
+    background-image: url("../images/growth.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: #ffff;
   }
 
   #network {
-    background-image: url("images/network.jpg");
+    background-image: url("../images/network.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: #ffff;
   }
 
   #ontology {
-    background-image: url("images/ontology.jpg");
+    background-image: url("../images/ontology.jpg");
     background-attachment: fixed;
     color: #ffff;
     background-size: 75%;
   }
 
   #transformation {
-    background-image: url("images/transformation.jpg");
+    background-image: url("../images/transformation.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position-y: 10px;
@@ -148,14 +148,14 @@ padding: 20px;
   }
 
   #mission {
-    background-image: url("images/movement.jpg");
+    background-image: url("../images/movement.jpg");
     background-size: cover;
     background-attachment: fixed;
     color: #ffff;
   }
 
   #movement {
-    background-image: url("images/movement.jpg");
+    background-image: url("../images/movement.jpg");
     background-attachment: fixed;
     background-size: cover;
     color:#ffff;
@@ -244,7 +244,7 @@ h1 {
   transition-duration: 500m s;
 }
 
-  /* teaching library */
+/* teaching library */
 
 .teaching-library-header {
   background-color: #fdfbfb;
@@ -333,7 +333,7 @@ h1 {
 /* resources */
 
 .resources-library {
-  background-image: url("images/bible.jpg");
+  background-image: url("../images/bible.jpg");
   background-size: cover; 
   background-repeat: no-repeat;
   background-position-y: 25%;
@@ -378,6 +378,20 @@ h1 {
 }
  iframe {
    width: 80%;
+ }
+
+ .articles {
+   display:block;
+   list-style: none;
+   text-align: center;
+   margin: 0 40px;
+ }
+ .articles li {
+   padding: 15px; 
+ }
+ .articles a {
+   color: black;
+   
  }
 
  #book1 {
@@ -482,7 +496,7 @@ padding: 40px;
   color: white;
 }
 
-.subscribe-form {
+.subscribe {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -490,16 +504,11 @@ padding: 40px;
   height: 50vh;
 }
 
-.subscribe-form p {
+.subscribe p {
   font-size: 18px;
 }
 
-.subscribe-form label {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 5px;
-}
-.subscribe-form input {
+.subscribe input {
   margin: 20px auto;
   width: 500px;
   height: 40px;
@@ -511,27 +520,29 @@ padding: 40px;
   border-radius: 50px;
 }
 
-.subscribe-form button {
+#mc-embedded-subscribe {
   display: inline;
-  margin: 0px 10px;
-  padding: 10px;
-  width: 120px;
+  margin: 15px auto;
+  padding: 15px;
+  width: 130px;
+  line-height:10px;
   border: 1px solid transparent;
   border-radius: 25px;
   font-size: 16px;
   font-weight: 600;
+ 
   background-color: #ffff;
   color: black;
   box-shadow:1px 2px 1px #9e9d9d;
 }
 
-.subscribe-form button:hover {
+#mc-embedded-subscribe:hover {
   background-color:#000000;
   color: white;
-  transition: ease-in-out 100ms;
+  transition: ease-in-out 200ms;
 }
 
-.subscribe-form button:active {
+#mc-embedded-subscribe:active {
   background-color:#000000;
   color: white;
 }

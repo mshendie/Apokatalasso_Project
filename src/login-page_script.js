@@ -33,11 +33,14 @@ $(function () {
         }
     });
     
-    //// forget password
-
-    $('.login-page_forget a').on('click', function (e) {
-        e.preventDefault();
-        $('.login-form').slideUp();
-        $('.forget-form').slideDown();
-    });
 });
+
+function submit() {
+location.replace(
+  "https://love2dev.com/blog/ways-to-use-javascript-redirect-to-another-page/"
+);
+};
+
+let submitBtn = document.getElementById("login-submit");
+submitBtn.addEventListener("click", submit)
+

@@ -18,9 +18,10 @@ body {
 }
 
 .login-section {
-    background-image: url(../Image/noise.png);
+    background-image: url(../images/movement.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
+    background-size: cover;
     width: 50%;
     background-color: #ffffff;
     position: relative;
@@ -32,10 +33,10 @@ body {
 }
 
 .login-section:before {
-    background-image: url(../Image/noise.png);
+    background-image: url(../images/login-images/noise.png);
     background-repeat: repeat;
     background-attachment: fixed;
-    background-color: #fff;
+    background-color: #141414;
     content: "";
     position: absolute;
     top: 0;
@@ -55,20 +56,19 @@ body {
 }
 
 .signup-section {
-    background-image: url(../Image/noise.png);
+    background-image: url(../images/login-images/noise.png);
     background-repeat: repeat;
     background-attachment: fixed;
-    width: 50%;
-    background-color: #2b2e2f;
+    background-color: #141414;
     position: relative;
     transition: .5s ease;
 }
 
 .signup-section:before {
-    background-image: url(../Image/noise.png);
+    background-image: url(../images/login-images/noise.png);
     background-repeat: repeat;
     background-attachment: fixed;
-    background-color: #2b2e2f;
+    background-color: #141414;
     content: "";
     position: absolute;
     top: 0;
@@ -111,7 +111,7 @@ body {
 }
 
 .login-section .section-page-intro_title {
-    color: #2b2e2f;
+    color: #fff;
 }
 
 .page-side.section-open {
@@ -157,11 +157,10 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 46px;
-    white-space: nowrap;
 }
 
 .login-section .form-title{
-    color: #2b2e2f;
+    color: rgb(238, 238, 238);
 }
 
 .login-page_label {
@@ -176,10 +175,10 @@ body {
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: 1px solid #2b2e2f;
+    border-bottom: 1px solid rgb(238, 238, 238);
     outline: none;
     padding: 9px;
-    color: #777777;
+    color: rgb(238, 238, 238);
     width: 100%;
     background-color: transparent;
     font-size: 15px;
@@ -190,7 +189,7 @@ body {
     position: absolute;
     top: 9px;
     left: 9px;
-    color: #8a8a8a;
+    color: rgba(214, 211, 211, 0.89);
     max-width: 180px;
     overflow: hidden;
     white-space: nowrap;
@@ -256,7 +255,7 @@ body {
     width: 80px;
     border-radius: 20px;
     font-size: 0;
-    background-image: url(../Image/submit-white.png);
+    background-image: url(../images/login-images/submit-white.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35px;
@@ -336,6 +335,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0px;
 }
 
 .signup-section_submit ul {
@@ -368,6 +368,12 @@ body {
     overflow: hidden;
 }
 
+.login-page_checkbox {
+    color:#e6e6e6bd;
+    font-size: 12px;
+    line-height: 20px;
+}
+
 .signup-section_submit .login-page-submit-btn input {
     position: relative;
     background-color: #fafafa;
@@ -379,7 +385,7 @@ body {
     width: 80px;
     border-radius: 20px;
     font-size: 0;
-    background-image: url(../Image/submit-black.png);
+    background-image: url(../images/login-images/submit-black.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35px;

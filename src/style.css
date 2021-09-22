@@ -39,7 +39,7 @@
     min-height: 150vh;
     text-align: center;
     background-color:#E6F4F1;
-    background-image: URL("../images/homepage.jpg");
+    background-image: URL("../images/heaven-meets-earth-homepage-space.jpg");
     background-attachment: fixed;
     background-size: cover;
   }
@@ -68,13 +68,13 @@
     font-size: 28px;
     font-weight: 400;
     text-align: center;
-    color: rgb(213, 217, 223);
+    color: rgb(234, 236, 240);
     letter-spacing: 10px;
   }
 
   .intro-para {
     display:block;
-    padding: 25px;
+    padding: 10px;
     margin: 0 30px;
     font-size: 16px;
     font-weight: 400;
@@ -99,10 +99,11 @@
     overflow: hidden;
     white-space: nowrap;
     padding: 200px 50px;
-    transition: font-size, 500ms;
   }
-  .core-value-cards:active{
-    border: 1px solid #e0dddd;
+  .core-value-cards:hover{
+    font-weight: bolder;
+    transition-delay: 200ms;
+    cursor: pointer;
   }
  #apokatalasso {
     background-image: url("../images/apostolic.jpg");
@@ -217,7 +218,9 @@ h1 {
 .about-section {
   background-color: #95B0B5;
   color: white;
-  padding: 50px;
+  padding: 30px 50px;
+  height: 760px;
+  width: auto;
 }
 .about-section h2 {
   text-align: center;
@@ -228,9 +231,8 @@ h1 {
 .about-section p {
   text-align: justify;
   font-weight: 300;
-  line-height: 30px;
-  font-size: 22px;
-  line-height: 35px;
+  line-height: 180%;
+  font-size: 1.3vw;
 }
 
 .about-section:hover {
@@ -241,7 +243,7 @@ h1 {
 
 #donate-button:hover {
   background-color: #223235;
-  transition-duration: 500m s;
+  transition-duration: 500ms;
 }
 
 /* teaching library */
@@ -420,8 +422,9 @@ h1 {
   overflow: hidden;
   width: 100%;
 }
- iframe {
-   width: 80%;
+
+rssapp-feed {
+   width: 70%;
  }
 
  .articles {

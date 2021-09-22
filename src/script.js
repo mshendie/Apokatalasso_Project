@@ -15,7 +15,6 @@ window.addEventListener("load", function(){
     }, speed);
 });
 
-
 function contactForm () {
     let submissionButton = document.getElementById("contact-form-submit");
     submissionButton.innerHTML = 'Envoyé'

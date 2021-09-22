@@ -269,13 +269,13 @@ h1 {
   padding: 20px;
 }
 .teaching-library p {
-  text-align: center;
+  justify-content: center;
   padding: 10px;
   margin: 0 auto;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
-  max-width: 1000px;
+  max-width: 1300px;
 }
 .teaching-unit {
   height: 300px;
@@ -299,7 +299,7 @@ h1 {
   display:block;
   margin: 0 auto;
   text-align:center;
-  font-size: 12px;
+  font-size: 17px;
   font-weight: 400;
 }
 .teaching-unit-links p {
@@ -310,11 +310,7 @@ h1 {
 #unit-1 {
   background: #95B0B5;
 }
-#unit-1:hover {
-  transition-timing-function:linear;
-  transition-duration: 100ms;
-  background-color: #fff;
-}
+
 #unit-2 {
   background: #DEB297;
 
@@ -338,6 +334,46 @@ h1 {
   background: #DEB297;
 }
 
+#unit-1:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff;
+}
+#unit-2:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff;
+}
+#unit-3:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff;
+}
+#unit-4:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff;
+}
+#unit-5:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff;
+}
+#unit-6:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff;
+}
+#unit-7:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff;
+}
+#unit-8:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff;
+}
 /* resources */
 
 .resources-library {

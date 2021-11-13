@@ -2,7 +2,7 @@ window.addEventListener("load", function(){
     let target = document.getElementById("subheading");
     let text = "God restoring all things to His original intentions in Christ."
     let loop = false;
-    let speed = 100;
+    let speed = 120;
     let pointer = 0;
     let timer = setInterval(function(){
         pointer++;

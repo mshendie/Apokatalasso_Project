@@ -48,39 +48,39 @@
     font-weight: 400;
     display: block;
     position: relative;
-    top: 230px;
+    top: 100px;
     padding: 25px;
     margin: 0 auto;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
-    color: rgb(243, 240, 240);
-    text-shadow: 0px 1px 2px  rgb(92, 91, 91);
-    letter-spacing: 8px;
+    color: rgb(241, 241, 241);
+    text-shadow: 1px 2px 2px  rgb(133, 133, 133);
+    letter-spacing: 15px;
   }
 
   .about h2 {
     display: block;
     position: relative;
-    top: 200px;
+    top: 130px;
     padding: 25px;
-    margin: 0 80px;
+    margin: 0 100px;
     line-height: 50px;
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 500;
     text-align: center;
     color: rgb(234, 236, 240);
-    letter-spacing: 10px;
+    text-shadow: 0px 1px 1px  rgb(133, 133, 133);
+    letter-spacing: 8px;
   }
 
   .intro-para {
     display:block;
-    padding: 10px;
-    margin: 0 30px;
-    font-size: 16px;
-    font-weight: 400;
+    margin: 0 auto;
+    padding: 5px 0px 20px 0px;
+    max-width: 1000px;
     text-align: center;
-    line-height: 30px;
-    color: rgb(213, 217, 223);
+    font-size: 20px; 
+    font-weight: 300;
   }
 
   .core-values{
@@ -170,30 +170,49 @@
     background-color:#ffffff ;
     color: rgb(0, 0, 0);
     text-shadow: 1px, 0px, 2px, grey;
-    min-height: 80vh;
+    min-height: 50vh;
   }
 
 .resources p {
-  margin: 0 80px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 300;
-  padding: 0px 25px 25px 25px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0px 20px 0px;
+    max-width: 900px;
+    text-align: center;
+    font-size: 20px; 
+    font-weight: 300;
 }
 
 .resources a {
-  font-size: 18px;
+  font-size: 16px;
+  margin: 10px;
   padding: 15px;
   box-shadow: 2px 1px 2px lightgray;
   border-radius: 50px 50px;
-  width: 600px;
+  width: 400px;
   background-color: #324B4F;
   color: white;
 }
 
 .resources a:hover{
  background-color: #223235;
- transition-duration: 1s;
+ transition-duration: 500ms;
+}
+
+.network p {
+    display: block;
+    margin: 0 auto;;
+    max-width: 900px;
+    text-align: center;
+    font-size: 20px; 
+    font-weight: 300;
+}
+.network img {
+display:block;
+  margin: 0 auto;
+  height:50%;
+  width:50%;
+  text-align:center;
 }
 
 footer{

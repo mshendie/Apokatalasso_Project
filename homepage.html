@@ -30,11 +30,11 @@
             <a class="nav-link" href="resources.html">
               Ressources </a>
             </li>
-            <li class="nav-item" id="network-nav">
-              <a class="nav-link" href="network.html"> Réseau </a>
-            </li>
             <li class="nav-item" id="contact-nav">
               <a class="nav-link" href="contact_us.html"> Contact </a>
+            </li>
+            <li class="nav-item" id="contact-nav">
+              <a class="nav-link"> École <span class="badge bg-secondary" style="font-weight: 400;"> à venir </span></a>
             </li>
           </ul>
         </div>
@@ -58,16 +58,19 @@
             </h2>
             <div class="intro-para">
               Les valeurs découlent de Dieu Trinitaire et Sa Parole, elles sont l’ADN du ministère en termes de fondements et démonstration. Cliquez sur les images pour en savoir plus :
+            </div class="intro-video">
+            <div>
+              <video controls autoplay height="50%" width="50%" style="margin:15px;"> <source src="Apokatalasso Valeurs.mp4" type="video/mp4"> </video>
             </div>
             <div class="row row-cols-2 g-0">
-              <div class="col">  
-                <div class="core-value-cards" id="apokatalasso">
-                  Apokatalasso 
+              <div class="col">
+                <div class="core-value-cards" id="apokatalasso" onclick="displayVideo()"> Apokatalasso 
+                  <div style="display:none;" class="player" id="youtube1"></div> 
                 </div> 
               </div>
               <div class="col">        
-                <div class="core-value-cards" id="apostolic">
-                  Fondements apostoliques 
+                <div class="core-value-cards" id="apostolic" onclick="displayVideo()"> Fondements apostoliques 
+                  <div style="display:none;" class="player" id="youtube2"></div>
                 </div>
               </div>
               <div class="col"> 
@@ -106,7 +109,7 @@
         <br>
         <section class="network" style="padding: 10px 0px;">
           <h2 style="text-align: center;"> Connexions à travers le monde </h2>
-          <p> Nous enseignons et soutenons des églises, groupes de chrétiens et écoles biblique en France, en Corse, en Angleterre, en Algérie, au Malawi, au Benin, Afrique du Sud. Nous désirons voir notre ministère s'étendre encore plus loin !  </p>
+          <p> Nous enseignons et soutenons des églises, groupes de chrétiens et écoles biblique en France, en Corse, en Angleterre, en Algérie, au Malawi, au Benin, en Afrique du Sud etc. Nous désirons voir notre ministère s'étendre encore plus loin !  </p>
           <img src="images/Map_white.png">
         </section>
         <section class="resources">

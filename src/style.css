@@ -54,7 +54,6 @@
     font-size: 70px;
     text-align: center;
     color: rgb(241, 241, 241);
-    text-shadow: 1px 2px 2px  rgb(133, 133, 133);
     letter-spacing: 15px;
   }
 
@@ -83,15 +82,27 @@
     font-weight: 300;
   }
 
+  .player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
   .core-values{
     display: block;
-    padding: 30px 10px;
+    padding: 40px 10px;
     margin: 0 auto;
-    min-height: 120vh;
+    min-height: 100vh;
     text-align: center;
     background-color:#ffff;  
   }
   .core-value-cards {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
     display: block;
     font-size: 34px;
     font-weight: 600;
@@ -134,7 +145,7 @@
   }
 
   #ontology {
-    background-image: url("../images/ontology.jpg");
+    background-image: url("../images/ontologie.jpg");
     background-attachment: fixed;
     color: #ffff;
     background-size: 75%;
@@ -238,7 +249,7 @@ h1 {
   background-color: #95B0B5;
   color: white;
   padding: 30px 50px;
-  height: 760px;
+  height: 700px;
   width: auto;
 }
 .about-section h2 {
@@ -293,10 +304,10 @@ h1 {
   justify-content: center;
   padding: 10px;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 30px;
-  max-width: 1300px;
+  max-width: 1000px;
 }
 .teaching-unit {
   height: 300px;
@@ -340,10 +351,10 @@ h1 {
   background: #A67D64;
 }
 #unit-4 {
-  background: #324B4F;
+  background: #3e5f64;
 }
 #unit-5 {
-  background: #324B4F;
+  background: #3e5f64;
 }
 #unit-6 {
   background: #E6F4F1;
@@ -395,6 +406,14 @@ h1 {
   transition-duration: 100ms;
   background-color: #fff;
 }
+
+.teaching-further {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+  font-size: 16px;
+}
 /* resources */
 
 .resources-library {
@@ -442,22 +461,20 @@ h1 {
   width: 100%;
 }
 
-rssapp-feed {
-   width: 70%;
- }
-
  .articles {
+   padding: 40px;
+   background-color: #2C3E4D;
+   color: white;
    display:block;
    list-style: none;
    text-align: center;
-   margin: 0 40px;
+   margin: 0 20px;
  }
  .articles li {
    padding: 15px; 
  }
  .articles a {
-   color: black;
-   
+   color: white; 
  }
 
  #book1 {

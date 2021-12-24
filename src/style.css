@@ -36,7 +36,8 @@
 .about{
     display: block;
     margin: 0 auto;
-    min-height: 150vh;
+    width: auto;
+    min-height: 100vh;
     text-align: center;
     background-color:#E6F4F1;
     background-image: URL("../images/heaven-meets-earth-homepage-space.jpg");
@@ -82,7 +83,7 @@
     font-weight: 300;
   }
 
-  .player {
+  #player {
   position: absolute;
   top: 0;
   left: 0;
@@ -96,10 +97,11 @@
     padding: 40px 10px;
     margin: 0 auto;
     min-height: 100vh;
-    text-align: center;
     background-color:#ffff;  
+    text-align: center;
   }
   .core-value-cards {
+    text-align: center;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -108,14 +110,23 @@
     font-weight: 600;
     margin: 0;
     overflow: hidden;
-    white-space: nowrap;
+    white-space:nowrap;
     padding: 200px 50px;
   }
-  .core-value-cards:hover{
-    font-weight: bolder;
-    transition-delay: 200ms;
-    cursor: pointer;
+  .img-fluid {
+    position: absolute; 
+    max-height: 31%; 
+    width: auto; 
+    object-fit: contain;
+    bottom:30%;
+    transition: 100ms ease-in;
+    opacity: 0;
   }
+
+  .img-fluid:hover{
+    opacity: 0.8;
+  }
+
  #apokatalasso {
     background-image: url("../images/apostolic.jpg");
     background-attachment: fixed;
@@ -195,18 +206,18 @@
 }
 
 .resources a {
-  font-size: 16px;
+  font-size: 18px;
   margin: 10px;
   padding: 15px;
   box-shadow: 2px 1px 2px lightgray;
   border-radius: 50px 50px;
-  width: 400px;
-  background-color: #324B4F;
+  width: 300px;
+  background-color: #2C3E4D;
   color: white;
 }
 
 .resources a:hover{
- background-color: #223235;
+ background-color: #202833;
  transition-duration: 500ms;
 }
 
@@ -685,4 +696,5 @@ padding: 40px;
   box-shadow:2px 2px 1px #727272;
   background-color:rgb(145, 143, 143);
   color: white;
+  text-decoration:none;
 }

@@ -37,3 +37,12 @@ function susbcribeForm () {
 let subscribeButton = document.getElementById("subscribe-form-submit");
 subscribeButton.addEventListener("click", susbcribeForm); 
 
+function donatePrompt(donateText) {
+  return function () {
+    alert(donateText);
+  };
+}
+let string = "Cliquez ici";
+let linked = string.link("contact_us.html#donate");
+let donateText = `J'espère que vous puissez profiter de ses enseignements gratuits. Cela étant un oeuvre de foi, nous serions très connaissant pour votre soutien financier afin de continuer ce mouvement de Dieu. Pour faire un don, rendez-vous dans la rubrique "Contact".`;
+setTimeout(donatePrompt(donateText), 50000);

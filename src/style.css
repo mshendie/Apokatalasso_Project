@@ -284,7 +284,7 @@ h1 {
 
 #donate-button:hover {
   background-color: #223235;
-  transition-duration: 500ms;
+  transition-duration: 200ms;
 }
 
 /* teaching library */
@@ -376,6 +376,18 @@ h1 {
 #unit-8 {
   background: #DEB297;
 }
+#unit-9 {
+  background: #A67D64;
+}
+#unit-10 {
+  background: #95B0B5;
+}
+#unit-11 {
+  background: #E6F4F1;
+}
+#unit-12 {
+  background: #3e5f64;
+}
 
 #unit-1:hover {
   transition-timing-function:linear;
@@ -417,6 +429,26 @@ h1 {
   transition-duration: 100ms;
   background-color: #fff;
 }
+#unit-9:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff
+}
+#unit-10:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff
+}
+#unit-11:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff
+}
+#unit-12:hover {
+  transition-timing-function:linear;
+  transition-duration: 100ms;
+  background-color: #fff
+}
 
 .soundcloud a {
   text-decoration: none;
@@ -436,7 +468,7 @@ h1 {
   display: block;
   margin: 0 auto;
   text-align: center;
-  max-width: 1200px;
+  max-width: 700px;
   font-size: 16px;
 }
 /* resources */

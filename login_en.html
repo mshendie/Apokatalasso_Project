@@ -1,0 +1,92 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Login </title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="src/normalize.css">
+        <link rel="stylesheet" href="src/font-awesome.min.css">
+        <link rel="stylesheet" href="src/login-page_style.css">
+        <link rel="stylesheet" href="src/login-page_responsive.css">
+        <script src="https://kit.fontawesome.com/148a6e46c4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="login-page_container">
+
+        <!--       Sign in Side      -->
+
+        <div class="login-section page-side section-ope section-open">
+            <div class="section-page_intro">
+                <img src="images/login-images/signup-icon.png" alt="signin-icon">
+                <p class="section-page-intro_title">Sign In</p>
+            </div>
+
+            <div class="login-form-area">
+                <p class="form-title"> LOGIN </p>
+                <div class="section-form">
+                    <form class="login-form">
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="email" name="email" autocomplete="off">
+                            <span class="login-page_placeholder">E-mail</span>
+                        </label>
+                        <div class="login-section_submit">
+                            <div class="login-page-submit-btn">
+                                <input type="submit" name="submit-login" value="submit" id="login-submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--       Sign up Side      -->
+
+        <div class="signup-section page-side section-clos section-close">
+            <div class="section-page_intro">
+                <img src="images/login-images/signup-icon.png" alt="signup-icon">
+                <p class="section-page-intro_title">Sign Up</p>
+            </div>
+
+            <div class="signup-form-area">
+                <p class="form-title">Sign Up</p>
+                <div class="section-form">
+                    <form class="signup-form" action="insert.php" method="POST" enctype="multipart/form-data">
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="text" name="first_name" required>
+                            <span class="login-page_placeholder"> Prénom </span>
+                        </label>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="text" name="last_name" required>
+                            <span class="login-page_placeholder"> Nom </span>
+                        </label>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="email" name="email" autocomplete="off" required>
+                            <span class="login-page_placeholder">Email</span>
+                        </label>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="text" name="date_of_birth">
+                            <span class="login-page_placeholder"> Date de Naissance </span>
+                        </label>
+                        <label class="login-page_label">
+                            <input class="login-page_input" type="text" name="location">
+                            <span class="login-page_placeholder"> Ville </span>
+                        </label>
+                        <label class="login-page_checkbox" for="consent-box">
+                            <input class="login-page_input" type="checkbox" name="consent-box" required>
+                            Apokatalasso demande les informations suivantes afin de mieux connaître les utilisateurs de cette plateforme. Aucune donnée ne sera transmise à des tiers. En cochant cette case, vous acceptez la politique de conformité au RGPD et votre abonnement à notre newsletter mensuelle.
+                        </label>
+                        <div class="signup-section_submit">
+                            <div class="login-page-submit-btn">
+                                <input type="submit" name="submit-signup" value="submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/jquery-1.12.1.min.js"></script>
+    <script src="src/login-page_script.js"></script>
+    </body>
+</html>

@@ -46,3 +46,8 @@ let string = "Cliquez ici";
 let linked = string.link("contact_us.html#donate");
 let donateText = `J'espère que vous puissez profiter de ses enseignements gratuits. Cela étant un oeuvre de foi, nous serions très connaissant pour votre soutien financier afin de continuer ce mouvement de Dieu. Pour faire un don, rendez-vous dans la rubrique "Contact".`;
 setTimeout(donatePrompt(donateText), 50000);
+
+let width= screen.width;
+if (width < '750') {
+    document.querySelector("col-6").className = "col";
+}

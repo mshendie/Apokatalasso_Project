@@ -1,4 +1,4 @@
-#navbar {
+    #navbar {
     background-color: #fdfbfb;
     box-shadow: 2px 0px 8px rgba(112, 109, 109, 0.3);
   }
@@ -72,14 +72,13 @@
     letter-spacing: 8px;
   }
 
-  .mobile-view-intro {
+    .mobile-view-intro {
     display: none;
     height: 50vh;
     width: auto;
     background-size: contain;
     text-align: center;
     left: 40px;
-
     }
 
   .intro-para {
@@ -93,13 +92,14 @@
   }
 
   .intro-video {
-    margin: 15px;
+    width: 100%;
+    height: auto;
   }
 
   .core-values{
     display: block;
     padding: 40px 10px;
-    margin: 0 auto;
+    margin: 0 250px;
     min-height: 100vh;
     background-color:#ffff;  
     text-align: center;
@@ -111,9 +111,10 @@
     display: block;
     font-size: 34px;
     font-weight: 600;
-    margin: 0;
+    margin: 0 auto;
     padding: 200px 50px;
   }
+
   .img-fluid {
     position: absolute; 
     max-height: 31%; 
@@ -157,7 +158,7 @@
   }
 
   #ontology {
-    background-image: url("../images/ontologie.jpg");
+    background-image: url("../images/ontology.jpg");
     background-attachment: fixed;
     color: #ffff;
     background-size: cover;
@@ -276,13 +277,11 @@ h1 {
   line-height: 180%;
   font-size: 1.3vw;
 }
-
 .about-section:hover {
   background-color:white;
   color: black;
   transition: all 500ms ease-in-out;
 }
-
 #donate-button:hover {
   background-color: #223235;
   transition-duration: 200ms;

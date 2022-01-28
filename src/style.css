@@ -94,6 +94,7 @@
   .intro-video {
     width: 100%;
     height: auto;
+    margin: 20px 0px;
   }
 
   .core-values{
@@ -261,14 +262,14 @@ h1 {
 .about-section {
   background-color: #95B0B5;
   color: white;
-  padding: 30px 50px;
-  height: 700px;
+  padding: 20px 50px 50px 50px;
+  margin: 0 auto;
   width: auto;
+  max-width: 900px;
 }
 .about-section h2 {
-  text-align: center;
+  padding: 20px 0px;
   font-weight: 500;
-  padding: 28px;
   text-shadow: 1px 0px 1px rgb(128, 128, 128, 0.2) ;
 }
 .about-section p {
@@ -470,7 +471,23 @@ h1 {
   text-align: center;
   max-width: 700px;
   font-size: 16px;
-  padding: 0px;
+  padding: 0px 30px;
+}
+
+.more-teaching {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 0px 0px 30px 0px;
+}
+
+#donate-button {
+  padding: 10px;
+  font-size: 20px; 
+  margin: 50px; 
+  width: 25%; 
+  border-radius: 50px 50px;
 }
 
 /* resources */
@@ -570,15 +587,20 @@ h1 {
 
 /* contact us */
 
-h2 {
+.contact-form h2 {
 padding: 40px;
 }
-
+.contact-form p {
+  padding: 0 20px;
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+}
 .contact-form {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 30px;
+  padding: 0 30px;
   background-color: #DEB297;
 }
 
@@ -637,12 +659,15 @@ padding: 40px;
   display: block;
   margin: 0 auto;
   text-align: center;
-  margin: 30px;
+  padding: 0 20px;
+  max-width: 700px;
+  margin: 30px auto;
   height: 50vh;
 }
 
 .subscribe p {
-  font-size: 18px;
+  font-size: 16px;
+  padding: 0 20px;
 }
 
 .subscribe input {
@@ -667,7 +692,6 @@ padding: 40px;
   border-radius: 25px;
   font-size: 16px;
   font-weight: 600;
- 
   background-color: #ffff;
   color: black;
   box-shadow:1px 2px 1px #9e9d9d;
@@ -688,17 +712,21 @@ padding: 40px;
   display: block;
   text-align: center;
   background-color: #f8f8f7;
-  height: 60vh;
+  padding: 0px 0px 40px 0px;
+}
+
+#donate h2 {
+  padding: 40px;
 }
 
 #donate p {
   display: block;
   margin: 0 auto;
-  padding: 0px 0px 30px 0px;
+  padding: 0px 20px 30px 20px;
   text-align: center;
   font-weight: 300;
   line-height: 30px;
-  max-width: 1000px;
+  max-width: 800px;
 }
 
 #paypal-button {

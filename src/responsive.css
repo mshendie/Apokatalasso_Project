@@ -13,10 +13,10 @@
         text-align: center;
         padding: 10px 60px;
         top: 40px;
-        line-height: 270%;
+        line-height: 30px;
     }
     h2 {
-        padding: 30px;
+        padding: 10px;
     }
     .mobile-view-intro {
         width: 100%;
@@ -69,17 +69,17 @@
     .resources a {
         margin: 0 0 25px 0;
         padding: 20px;
-        font-size: 14px;
+        font-size: 16px;
         width: 200px;
     }
 
     .about-section {
-        padding: 20px;
-        height: 600px;
+        padding: 10px;
+        margin: 0 20px;
     }
     .about-section h2 {
         font-size: 18px;
-        padding: 20px;
+        padding: 10px 0px;
         text-align: left;
     }
     .about-section p {
@@ -88,102 +88,88 @@
     #donate-button {
         font-size: 12px;
     }
+
+    .resources-library {
+        background-image: none;
+        display: none;   
+    }
+    .resources-library p {
+        font-weight: 500;
+    }
+
+    .contact-form h2 {
+        font-size: 20px;
+    }
+
+    .contact-form ul {
+    list-style: none;
+    display: inline-block;
+    }
+
+    .contact-form label {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px;
 }
+    .contact-form input {
+    max-width: 300px;
+    height: 30px;
+    font: 14px sans-serif;
+    }
+    .contact-form textarea {
+    max-width: 300px;
+    height: 40px;
+    font: 14px sans-serif;
+    }
+
+    .subscribe h2 {
+        font-size: 20px;
+    }
+    .subscribe p {
+        font-size: 14px;
+    }
+
+    .subscribe input {
+        max-width: 300px;
+    }
+
+   #mc-embedded-subscribe {
+        font-weight: 500;
+        font-size: 14px;;
+        padding: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    #donate h2 {
+        font-size: 20px;
+        padding: 40px 20px 10px 20px;
+    }
+
+    #donate p {
+        font-size: 14px;
+    }
+    
+    #paypal-button {
+        max-width: 180px;
+        font-size: 14px;
+        margin: 15px;
+    }
+     #transferwise-button {
+        max-width: 180px;
+        margin: 15px;
+    }
+     #bank-button {
+        max-width: 180px;
+        font-size: 14px;
+        margin: 15px;
+    }
+
+
+}
+
+
 /**************/
-
-@media screen and (max-width: 1024px) {
-     .about {
-        display: block;
-        background-image:none;
-        background-color: #04000E;
-        min-height: 50vh;
-    }
-    .about h1 {
-        display: none;
-    }
-    .about h2 {
-        font-size: 24px;
-        text-align: center;
-        padding: 10px 60px;
-        top: 40px;
-        line-height: 270%;
-    }
-    h2 {
-        padding: 30px;
-    }
-    .mobile-view-intro {
-        width: 100%;
-        height:auto;
-        display: block;
-        background-size: contain;
-    }
-
-    .intro-para {
-        padding: 10px;
-        margin: 10px;
-        font-size: 16px;
-    }
-    .intro-video video {
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        padding: 10px;
-    }
-    
-    .core-values{
-        margin: 0 auto;
-     }
-
-    .core-value-cards {
-        margin: 0 auto;
-        font-size: 24px;
-        font-weight: 500;
-        padding: 100px 50px;
-    }
-    .network p {
-        padding: 10px;
-        margin: 10px;
-        font-size: 16px; 
-    }
-    .network img {
-        display: block;
-        margin: 0 auto;
-        padding: 10px;
-        height:80%;
-        width:80%;
-        text-align:center; 
-    }
-    .resources p {
-        padding: 10px;
-        margin: 10px;
-        font-size: 16px; 
-    }
-    .resources a {
-        margin: 0 0 25px 0;
-        padding: 20px;
-        font-size: 14px;
-        width: 200px;
-    }
-
-    .about-section {
-        padding: 20px;
-        height: 600px;
-    }
-    .about-section h2 {
-        font-size: 18px;
-        padding: 20px;
-        text-align: left;
-    }
-    .about-section p {
-        font-size: 12px;
-    }
-    #donate-button {
-        font-size: 12px;
-    }
-}
-
-/*****************************/
 
 @media screen and (max-width: 768px) {
      .about {
@@ -254,25 +240,156 @@
         font-size: 16px; 
     }
     .resources a {
-        margin: 0 0 25px 0;
+        margin: 20px 0;
         padding: 20px;
-        font-size: 14px;
+        font-size: 17px;
         width: 200px;
     }
 
-    .about-section {
-        padding: 20px;
-        height: 600px;
+   .about-section {
+        padding: 10px;
+        margin: 0 20px;
     }
     .about-section h2 {
         font-size: 18px;
-        padding: 20px;
+        padding: 10px 0px;
         text-align: left;
     }
     .about-section p {
         font-size: 12px;
     }
+
     #donate-button {
         font-size: 12px;
+    }
+
+    .contact-form label {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px;
+    }
+    .contact-form input {
+    width: 350px;
+    font: 14px sans-serif;
+    }
+    .contact-form textarea {
+    width: 350px;
+    height: 100px;
+    font: 14px sans-serif;
+    }
+    .contact-form button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: 600;
+    }
+
+    .subscribe input {
+    max-width: 350px;
+    }
+
+}
+
+/*****************************/
+
+@media screen and (max-width: 1024px) {
+     .about {
+        display: block;
+        background-image:none;
+        background-color: #04000E;
+        min-height: 50vh;
+    }
+    .about h1 {
+        display: none;
+    }
+    .about h2 {
+        font-size: 24px;
+        text-align: center;
+        padding: 10px 60px;
+        top: 40px;
+        line-height: 270%;
+    }
+    h2 {
+        padding: 30px;
+    }
+    .mobile-view-intro {
+        width: 100%;
+        height:auto;
+        display: block;
+        background-size: contain;
+    }
+
+    .intro-para {
+        padding: 10px;
+        margin: 10px;
+        font-size: 16px;
+    }
+    .intro-video video {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .core-values{
+        margin: 0 auto;
+     }
+
+    .core-value-cards {
+        margin: 0 auto;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 100px 50px;
+    }
+    .network p {
+        padding: 10px;
+        margin: 10px;
+        font-size: 16px; 
+    }
+    .network img {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        height:80%;
+        width:80%;
+        text-align:center; 
+    }
+    .resources p {
+        padding: 10px;
+        margin: 10px;
+        font-size: 16px; 
+    }
+    .resources a {
+        margin: 20px 0;
+        padding: 20px;
+        font-size: 17px;
+        width: 200px;
+    }
+
+    .about-section {
+        margin: 0 20px;
+        padding: 30px;
+        height: auto;
+    }
+    .about-section h2 {
+        font-size: 24px;
+        text-align: left;
+    }
+    .about-section p {
+        font-size: 14px;
+    }
+    #donate-button {
+        font-size: 14px;
+    }
+
+    .resources-library {
+        background-image: url("../images/bible.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position-y: 25%;
+        height: 25vh;
     }
 }

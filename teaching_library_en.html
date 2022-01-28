@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link href="src/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="src/responsive.css">
   <script src="src/script.js"></script>
 </head>
 <header class="teaching-library-header">
@@ -184,6 +185,12 @@
         </div>
     </div>
 </div>
+<div class="more-teaching">
+    <h5>
+        <i class="fas fa-arrow-circle-right"></i>
+        <a href="https://www.apokatalasso.com/en/teaching%20library.html" target="_blank"> Click here to access entire library </a>
+    </h5>
+</div>
 <div class="teaching-further">
     <h4>
         Want to go further?
@@ -191,7 +198,7 @@
     <p>
         Would you like us to visit you in your church or with your group ? We also offer visual dialogue evenings revolving around a specific theme to facilitate understanding, questions and application.
     </p>
-    <a type="button" class="btn btn-outline-dark" id="donate-button" href="contact_us_en.html#donate" style="padding: 10px; font-size: 20px; margin: 50px; width: 25%; border-radius: 50px 50px;">
+    <a type="button" class="btn btn-outline-dark" id="donate-button" href="contact_us_en.html#donate">
         Donate
     </a>
 </div>
@@ -204,7 +211,7 @@
     let string = "Cliquez ici"
     let linked = string.link("contact_us.html#donate")
     let donateText = `I hope you are able to benefit from these free teachings. This being a work of faith, we would be very grateful for your financial support to continue in this movement of God. To make a donation, please go back to the "Contact Us" section.`
-    setTimeout(donatePrompt(donateText), 60000);
+    setTimeout(donatePrompt(donateText), 10000);
 </script> 
 </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>   
